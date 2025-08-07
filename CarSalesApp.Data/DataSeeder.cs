@@ -17,9 +17,9 @@ namespace CarSalesApp.Data
 
 			var brands = new[]
 			{
-				new Brand { Name = "Audi" },
-				new Brand { Name = "BMW" },
-				new Brand { Name = "Toyota" },
+				new Brand { Name = "Hyundai" },
+				new Brand { Name = "Peugeot" },
+				new Brand { Name = "Kia" },
 			};
 
 			foreach (var brand in brands)
@@ -31,12 +31,12 @@ namespace CarSalesApp.Data
 
 			var models = new[]
 			{
-				new Model { Name = "A4", BrandId = brands[0].Id },
-				new Model { Name = "A6", BrandId = brands[0].Id },
-				new Model { Name = "X2", BrandId = brands[1].Id },
-				new Model { Name = "X3", BrandId = brands[1].Id },
-				new Model { Name = "Corolla", BrandId = brands[2].Id },
-				new Model { Name = "Camry", BrandId = brands[2].Id },
+				new Model { Name = "i20", BrandId = brands[0].Id },
+				new Model { Name = "i30", BrandId = brands[0].Id },
+				new Model { Name = "308", BrandId = brands[1].Id },
+				new Model { Name = "408", BrandId = brands[1].Id },
+				new Model { Name = "K3", BrandId = brands[2].Id },
+				new Model { Name = "K5", BrandId = brands[2].Id },
 			};
 
 			foreach (var model in models)

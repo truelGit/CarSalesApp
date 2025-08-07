@@ -99,7 +99,6 @@ namespace CarSalesApp.UI
 			for (int i = 0; i < 12; i++)
 				ws.Cell(1, i + 2).Value = months[i];
 
-			// Данные
 			for (int row = 0; row < Sales.Count; row++)
 			{
 				var sale = Sales[row];
